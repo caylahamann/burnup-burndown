@@ -1,0 +1,26 @@
+{
+  "schemaType": "VISUALIZATION",
+  "id": "burndown-burnup",
+  "displayName": "BurndownBurnup",
+  "description": "",
+  "configuration": [
+    {
+      "name": "jiraEpic",
+      "title": "Jira EPIC",
+      "description": "Jira Epic Key to create burndown and burnup charts for. Example: DEVEX-1664.",
+      "type": "string"
+    },
+    {
+      "name": "startDate",
+      "title": "Start Date of MMF",
+      "description": "Jira Epic Key to create burndown and burnup charts for. Example: DEVEX-1664.",
+      "type": "string"
+    },
+    {
+      "name": "endDate",
+      "title": "End Date of MMF",
+      "description": "Jira Epic Key to create burndown and burnup charts for. Example: DEVEX-1664.",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "burndown-burnup-launcher",
+    "displayName": "BurndownBurnupLauncher",
+    "description": "Describe me",
+    "rootNerdletId": "burndown-burnup-nerdlet"
+}
