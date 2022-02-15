@@ -33,6 +33,8 @@ const jiraSearchQueryForToday = async ({ jiraEpic, status }) => {
   const headers = new Headers();
   headers.set("Authorization", `Basic ${btoa(`${JIRA_EMAIL}:${KEY}`)}`);
   headers.set("Accept", "application/json");
+
+  // This has to do with some weird cross origin fetching, i vaguely remember what was happening and why i had this local redirect
   const resp = await fetch(
     `http://localhost:8080/newrelic.atlassian.net/rest/api/2/search?jql=${encodeURIComponent(
       queryString
